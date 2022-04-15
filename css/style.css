@@ -1,0 +1,45 @@
+.display-3{
+    background-color: gold;
+}
+.footer{
+    background-color: black;
+    color: white;
+    margin-top: 10%;
+}
+.blockquote-footer{
+    color: white;
+}
+.mapa{
+    background-color: gold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.local{
+    background-color: gold;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
+}
+.cuenta{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: gray;
+}
+p{
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+}
+.principal{
+    margin-bottom: 1rem;
+}
+.boton_pedido{
+    text-align: right;
+    animation:zoomIn;
+    animation-duration: 10s;
+}
+.logos{
+    animation:backInLeft;
+    animation-duration: 4s;
+}
