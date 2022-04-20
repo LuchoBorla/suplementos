@@ -6,6 +6,9 @@
     color: white;
     margin-top: 10%;
 }
+.footer p{
+    color: white;
+}
 .blockquote-footer{
     color: white;
 }
@@ -43,3 +46,21 @@ p{
     animation:backInLeft;
     animation-duration: 4s;
 }
+.titulo{
+    background: rgb(22,19,1);
+    background: linear-gradient(0deg, rgba(22,19,1,0.7567401960784313) 24%, rgba(34,193,195,1) 100%);
+}
+.texto {
+    background: linear-gradient(red, yellow);
+    -webkit-background-clip: text;
+    color: transparent;  
+  }
+  .nav a{
+      color:white
+  }
+  .logo{
+      max-width: 150px;
+  }
+ .centrado{
+     text-align: center;
+ }
