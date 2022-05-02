@@ -1,66 +1,87 @@
-.display-3{
-    background-color: gold;
-}
-.footer{
-    background-color: black;
-    color: white;
-    margin-top: 10%;
-}
-.footer p{
-    color: white;
-}
-.blockquote-footer{
-    color: white;
-}
-.mapa{
-    background-color: gold;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-.local{
-    background-color: gold;
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-   
-}
-.cuenta{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-body{
-    background-color: gray;
-}
-p{
-    color: black;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
-}
-.principal{
-    margin-bottom: 1rem;
-}
-.boton_pedido{
-    text-align: right;
-    animation:zoomIn;
-    animation-duration: 10s;
-}
-.logos{
-    animation:backInLeft;
-    animation-duration: 4s;
-}
-.titulo{
-    background: rgb(22,19,1);
-    background: linear-gradient(0deg, rgba(22,19,1,0.7567401960784313) 24%, rgba(34,193,195,1) 100%);
-}
+figure {
+  background-color: black;
+  color: blue; }
+
+body {
+  background-color: grey; }
+
+.logo {
+  width: 150px; }
+
+.boton_pedido {
+  text-align: right;
+  animation: zoomIn;
+  animation-duration: 10s; }
+
+.titulo {
+  background: #161301;
+  background: linear-gradient(0deg, rgba(22, 19, 1, 0.75674) 24%, #22c1c3 100%); }
+
 .texto {
-    background: linear-gradient(red, yellow);
-    -webkit-background-clip: text;
-    color: transparent;  
-  }
-  .nav a{
-      color:white
-  }
-  .logo{
-      max-width: 150px;
-  }
- .centrado{
-     text-align: center;
- }
+  background: linear-gradient(red, yellow);
+  -webkit-background-clip: text;
+  color: transparent; }
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0; }
+
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  position: absolute; }
+
+.footer {
+  margin-top: 10%; }
+
+p {
+  color: black; }
+
+nav {
+  color: white;
+  background-color: black; }
+
+h1 {
+  color: black; }
+
+.foot {
+  color: white; }
+
+.titulo2 {
+  background-color: gold; }
+
+p {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; }
+
+h1 {
+  font-family: monospace;
+  color: black; }
+
+p {
+  color: black; }
+
+nav {
+  color: white;
+  background-color: black; }
+
+.foot {
+  color: white; }
+
+.historia {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+.foot {
+  background-color: #3673D9;
+  text-align: center;
+  padding: 1rem;
+  color: white; }
+
+.uno {
+  background-color: black;
+  color: white; }
+
+.dos {
+  background-color: #E67E22;
+  color: white; }

@@ -1,0 +1,42 @@
+figure{
+    background-color: black;
+    color: blue;
+}
+body{
+    background-color: grey;
+}
+.logo{
+    width: 150px;
+}
+.boton_pedido{
+    text-align: right;
+    animation:zoomIn;
+    animation-duration: 10s;
+}
+.titulo{
+    background: rgb(22,19,1);
+    background: linear-gradient(0deg, rgba(22,19,1,0.7567401960784313) 24%, rgba(34,193,195,1) 100%);
+}
+.texto {
+    background: linear-gradient(red, yellow);
+    -webkit-background-clip:  text;
+    color: transparent;  
+  }
+ 
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+
+}
+
+.map-responsive iframe{
+    left:0;
+    top:0;
+    position:absolute;
+
+}
+.footer{
+    margin-top: 10%;
+}
