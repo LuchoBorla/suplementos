@@ -1,10 +1,4 @@
-figure{
-    background-color: black;
-    color: blue;
-}
-body{
-    background-color: grey;
-}
+
 .logo{
     width: 150px;
 }
@@ -13,12 +7,9 @@ body{
     animation:zoomIn;
     animation-duration: 10s;
 }
-.titulo{
-    background: rgb(22,19,1);
-    background: linear-gradient(0deg, rgba(22,19,1,0.7567401960784313) 24%, rgba(34,193,195,1) 100%);
-}
+
 .texto {
-    background: linear-gradient(red, yellow);
+    background: linear-gradient(grey, white);
     -webkit-background-clip:  text;
     color: transparent;  
   }
@@ -39,4 +30,7 @@ body{
 }
 .footer{
     margin-top: 10%;
+}
+.prod-index{
+    margin-left: 1rem;
 }

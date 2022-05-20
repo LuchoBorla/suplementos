@@ -12,7 +12,8 @@ $estilos: (
 
 $estilos1: (
   negro: black,
-  naranja: #E67E22
+  naranja: black
+
 );
 
 
@@ -28,6 +29,6 @@ $estilos1: (
   color: white;
 }
 .dos{
-  @include fondo(naranja);
+  @include fondo(negro);
   color: white;
 }
